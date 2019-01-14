@@ -1,0 +1,86 @@
+body {
+    background-image: url("/image/home/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1400px;
+}
+
+.nav {
+    margin-left: 219px;
+    margin-top: 46px;
+    width: 100%;
+}
+
+.nav .text {
+    font-size: 20px;
+    color: #666666;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav .article {
+    margin-left: 114px;
+}
+
+.nav .picture, .nav .about {
+    margin-left: 109px;
+}
+
+.nav .logo {
+    background-image: url("/image/home/logo.svg");
+    background-size: 64px 64px;
+    width: 64px;
+    height: 64px;
+}
+
+.nav .search {
+    background-image: url("/image/home/search.svg");
+    background-size: 22px 21px;
+    width: 22px;
+    height: 21px;
+    margin-left: 785px;
+}
+
+.nav .upload-picture {
+    background-image: url("/image/home/picture.svg");
+    background-size: 23px 21px;
+    width: 23px;
+    height: 21px;
+    margin-left: 50px;
+}
+
+.nav .add-article {
+    background-image: url("/image/home/article.svg");
+    background-size: 21px 22px;
+    width: 21px;
+    height: 22px;
+    margin-left: 50px;
+}
+
+.content {
+    margin-top: 750px;
+    margin-left: 211px;
+}
+
+.content img {
+    width: 375px;
+    height: 459px;
+}
+
+.content .right {
+    margin-left: 50px;
+}
+
+.content .top {
+    width: 648px;
+    height: 249px;
+}
+
+.content .bottom {
+    width: 639px;
+    height: 158px;
+}
