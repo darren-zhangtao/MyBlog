@@ -1,0 +1,148 @@
+body, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-image: url("/image/home/background_0119.png");
+  width: 1980px;
+  height: 1080px;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 46px;
+  position: relative;
+
+
+  .nav {
+    margin-left: 339px;
+    .inline-block {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .text {
+      font-size: 20px;
+      color: #666666;
+      font-weight: bold;
+      line-height: 26px;
+    }
+
+    .article {
+      margin-left: 114px;
+    }
+
+    .picture {
+      margin-left: 106px;
+    }
+
+    .about {
+      margin-left: 106px;
+    }
+
+    .search {
+      margin-left: 565px;
+    }
+
+    .upload-picture {
+      margin-left: 50px;
+    }
+
+    .add-article {
+      margin-left: 50px;
+    }
+  }
+
+  .content {
+    margin-left: 329px;
+    margin-top: 540px;
+
+    .inline-block {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .middle {
+      margin-left: 10px;
+
+      .middle-1, .middle-3 {
+        margin-right: 10px;
+      }
+
+      .top {
+        margin-bottom: 10px;
+      }
+    }
+
+    .right {
+      .article-title {
+        margin: 0px;
+        padding: 0px;
+        font-size: 16px;
+        color: #444444;
+        font-weight: bold;
+        line-height: 21px;
+        margin-top: 9px;
+        width: 370px;
+        overflow: hidden;
+      }
+      .article-content {
+        width: 370px;
+        font-size: 14px;
+        color: #666666;
+        line-height: 24px;
+        height: 44px;
+        overflow: hidden;
+        margin-top: 8px;
+      }
+      .top {
+        margin: 13px 0px 30px 98px;
+        background-image: url("/image/home/left.png");
+        width: 457px;
+        height: 104px;
+        div {
+          margin-left: 45px;
+          padding: 10px;
+          overflow: hidden;
+          height: 80px;
+        }
+      }
+      .bottom {
+        margin-left: 121px;
+        background-image: url("/image/home/right.png");
+        width: 442px;
+        height: 104px;
+        div {
+          margin-left: 34px;
+          padding-top: 10px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+
+  .footer {
+    line-height: 68px;
+    width: 1920px;
+    bottom: 0px;
+    position: absolute;
+    background:rgba(249,248,246,1);
+    opacity:1;
+
+    .inline-block {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    div {
+      margin-left: 109px;
+    }
+    .start {
+      margin-left: 458px;
+    }
+  }
+}
