@@ -1,0 +1,78 @@
+p {
+  margin: 0px;
+  padding: 0px;
+  font-family: Microsoft YaHei;
+}
+
+body,
+div,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.head-container {
+  width: 100%;
+  height: 114px;
+  position: relative;
+  background-color: #EDECE6;
+}
+
+.head-container .head-content {
+  margin: 0 auto;
+  padding-top: 25px;
+  width: 1135px;
+}
+
+.head-container .head-content li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.head-container .head-content .head-content-right {
+  float: right;
+  height: 68px;
+  line-height: 68px;
+}
+
+.head-container .head-content .article,
+.head-container .head-content .picture,
+.head-container .head-content .about {
+  margin-left: 97px;
+}
+
+.head-container .head-content .search {
+  margin-right: 30px;
+}
+
+.head-container .head-content .search-input {
+  border-color: #878787;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  background-color: #EDECE6;
+  width: 120px;
+}
+
+.head-container .head-content .picture-upload {
+  margin-right: 50px;
+}
+
+.head-container a:link {
+  text-decoration: none;
+  color: #666666;
+  font-weight: bold;
+}
+
+.content-container {
+  width: 100%;
+  background-color: #FFFDFC;
+}
+

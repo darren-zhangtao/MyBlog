@@ -14,9 +14,9 @@
 <div class="container">
     <div class="nav">
         <div class="logo inline-block"><img src="/image/home/logo.png"></div>
-        <div class="text inline-block article">文章</div>
-        <div class="text inline-block picture">图片</div>
-        <div class="text inline-block about">关于</div>
+        <div class="text inline-block article"><a href="{{route('article.get')}}">文章</a></div>
+        <div class="text inline-block picture"><a href="{{route('picture.get')}}">图片</a></div>
+        <div class="text inline-block about"><a href="/about">关于</a></div>
         <div class="inline-block search"><img src="/image/home/search.png"></div>
         <div class="inline-block upload-picture"><img src="/image/home/picture.png"></div>
         <div class="inline-block add-article"><img src="/image/home/article.png"></div>

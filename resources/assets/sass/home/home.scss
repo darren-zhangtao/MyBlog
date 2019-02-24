@@ -1,6 +1,7 @@
 body, p {
-  margin: 0px;
+  margin: 0px;  
   padding: 0px;
+  font-family:Microsoft YaHei;
 }
 
 div {
@@ -10,9 +11,8 @@ div {
 
 .container {
   background-image: url("/image/home/background_0119.png");
-  width: 1980px;
-  height: 1080px;
-  background-size: cover;
+  width: 100%;
+  background-size: inherit;
   margin: 0 auto;
   padding-top: 46px;
   position: relative;
@@ -26,7 +26,7 @@ div {
     }
 
     .text {
-      font-size: 20px;
+      font-size:  20px;
       color: #666666;
       font-weight: bold;
       line-height: 26px;
@@ -60,7 +60,7 @@ div {
   .content {
     margin-left: 329px;
     margin-top: 540px;
-
+    height: 400px;
     .inline-block {
       display: inline-block;
       vertical-align: top;
@@ -78,7 +78,7 @@ div {
       }
     }
 
-    .right {
+    .right {cover
       .article-title {
         margin: 0px;
         padding: 0px;
@@ -127,7 +127,7 @@ div {
 
   .footer {
     line-height: 68px;
-    width: 1920px;
+    width: 100%;
     bottom: 0px;
     position: absolute;
     background:rgba(249,248,246,1);

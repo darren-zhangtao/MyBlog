@@ -1,5 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/home/home.css": "/css/home/home.css",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/css/default/head.css": "/css/default/head.css",
+    "/css/article/article_list.css": "/css/article/article_list.css",
+    "/css/picture/picture_content.css": "/css/picture/picture_content.css"
 }

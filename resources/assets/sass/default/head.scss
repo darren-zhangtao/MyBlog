@@ -1,0 +1,73 @@
+p {
+  margin: 0px;
+  padding: 0px;
+  font-family: Microsoft YaHei;
+}
+
+body, div, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.head-container {
+  width: 100%;
+  height: 114px;
+  position: relative;
+  background-color: #EDECE6;
+
+  .head-content {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 1135px;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .head-content-right {
+      float: right;
+      height: 68px;
+      line-height: 68px;
+    }
+
+    .article, .picture, .about {
+      margin-left: 97px;
+    }
+
+    .search {
+      margin-right: 30px;
+    }
+
+    .search-input {
+      border-color: #878787;
+      border-style: solid;
+      border-top-width: 0px;
+      border-right-width: 0px;
+      border-bottom-width: 1px;
+      border-left-width: 0px;
+      background-color: #EDECE6;
+      width: 120px;
+    }
+
+    .picture-upload {
+      margin-right: 50px;
+    }
+  }
+
+  a:link {
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+  }
+}
+
+.content-container {
+  width: 100%;
+  background-color: #FFFDFC;
+}

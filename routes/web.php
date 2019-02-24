@@ -12,3 +12,9 @@
 */
 
 Route::get('/', 'Home\HomeController@home');
+
+Route::get('/about', 'Home\HomeController@about');
+
+Route::get('/articles', 'Article\ArticleController@getArticles')->name('article.get');
+
+Route::get('/pictures', 'Picture\PictureController@getPictures')->name('picture.get');
