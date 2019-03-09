@@ -17,6 +17,7 @@ class CreateArticlesTable extends Migration
             $table->increments('id');
             $table->smallInteger('user_id')->references('id')->on('users');
             $table->smallInteger('cat_id')->references('id')->on('categories');
+            $table->string('title')->nullable();
             $table->mediumText('content')->nullable();
             $table->boolean('is_delete')->default(0);
             $table->timestamp('created_at')->useCurrent();
