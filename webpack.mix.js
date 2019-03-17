@@ -16,5 +16,8 @@ mix.js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
 
     .sass('resources/assets/sass/default/head.scss', 'public/css/default')
+
     .sass('resources/assets/sass/article/article_list.scss', 'public/css/article')
+    .sass('resources/assets/sass/article/article_detail.scss', 'public/css/article')
+
     .sass('resources/assets/sass/picture/picture_content.scss', 'public/css/picture');

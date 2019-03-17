@@ -14,6 +14,6 @@ class ArticleController extends Controller
         $article_dao = new ArticleDao();
         $data = $article_dao->getArticlesByUser(2);
 //        var_dump($data);
-        return view('article.article_list');
+        return view('article.article_detail');
     }
 }
