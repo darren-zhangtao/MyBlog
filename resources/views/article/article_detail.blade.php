@@ -31,6 +31,7 @@
             </div>
         </div>
         <div class="content">
+            {!! $mark_down !!}
         </div>
     </div>
 </div>

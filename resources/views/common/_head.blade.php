@@ -4,11 +4,11 @@
             <div class="head-content-left inline-block">
                 <li><img src="/image/home/logo.png" class="logo"></li>
                 <li class="article">
-                    <div class=""><a href="{{route('article.get')}}">文章</a></div>
+                    <div class=""><a href="{{route('article.getAll')}}">文章</a></div>
                     <div class="decorate-line"></div>
                 </li>
                 <li class="picture">
-                    <div class=""><a href="{{route('picture.get')}}">图片</a></div>
+                    <div class=""><a href="{{route('picture.getAll')}}">图片</a></div>
                     <div class="decorate-line"></div>
                 </li>
                 <li class="about">
