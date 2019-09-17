@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Home\HomeController@home');
+
+Route::get('/about', 'Home\HomeController@about');
+
+Route::get('/articles', 'Article\ArticleController@getArticles')->name('article.getAll');
+
+Route::get('/articles/{article_id}', 'Article\ArticleController@getArticle')->name('article.getById');
+
+Route::get('/pictures', 'Picture\PictureController@getPictures')->name('picture.getAll');

@@ -1,0 +1,157 @@
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+  font-family: Microsoft YaHei;
+}
+
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-image: url("/image/home/background_0119.png");
+  width: 100%;
+  background-size: inherit;
+  margin: 0 auto;
+  padding-top: 46px;
+  position: relative;
+}
+
+.container .nav {
+  margin-left: 339px;
+}
+
+.container .nav .inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container .nav .text {
+  font-size: 20px;
+  color: #666666;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.container .nav .article {
+  margin-left: 114px;
+}
+
+.container .nav .picture {
+  margin-left: 106px;
+}
+
+.container .nav .about {
+  margin-left: 106px;
+}
+
+.container .nav .search {
+  margin-left: 565px;
+}
+
+.container .nav .upload-picture {
+  margin-left: 50px;
+}
+
+.container .nav .add-article {
+  margin-left: 50px;
+}
+
+.container .content {
+  margin-left: 329px;
+  margin-top: 540px;
+  height: 400px;
+}
+
+.container .content .inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container .content .middle {
+  margin-left: 10px;
+}
+
+.container .content .middle .middle-1,
+.container .content .middle .middle-3 {
+  margin-right: 10px;
+}
+
+.container .content .middle .top {
+  margin-bottom: 10px;
+}
+
+.container .content .right cover
+.article-title {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: #444444;
+  font-weight: bold;
+  line-height: 21px;
+  margin-top: 9px;
+  width: 370px;
+  overflow: hidden;
+}
+
+.container .content .right .article-content {
+  width: 370px;
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  height: 44px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.container .content .right .top {
+  margin: 13px 0px 30px 98px;
+  background-image: url("/image/home/left.png");
+  width: 457px;
+  height: 104px;
+}
+
+.container .content .right .top div {
+  margin-left: 45px;
+  padding: 10px;
+  overflow: hidden;
+  height: 80px;
+}
+
+.container .content .right .bottom {
+  margin-left: 121px;
+  background-image: url("/image/home/right.png");
+  width: 442px;
+  height: 104px;
+}
+
+.container .content .right .bottom div {
+  margin-left: 34px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.container .footer {
+  line-height: 68px;
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  background: #f9f8f6;
+  opacity: 1;
+}
+
+.container .footer .inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container .footer div {
+  margin-left: 109px;
+}
+
+.container .footer .start {
+  margin-left: 458px;
+}
+

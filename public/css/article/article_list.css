@@ -1,0 +1,116 @@
+.article-content {
+  width: 1135px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.article-content .shadow {
+  -webkit-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-content .content-left {
+  width: 120px;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.article-content .content-left .tag {
+  padding: 20px 17px;
+}
+
+.article-content .content-left .tag .user-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.article-content .content-left .tag .tag-name {
+  background: whitesmoke;
+  border: 1px solid #e2e2e2;
+  opacity: 1;
+  border-radius: 6px;
+  width: auto;
+  font-size: 14px;
+  display: table;
+  padding: 0 8px;
+  margin-bottom: 16px;
+}
+
+.article-content .content-right {
+  width: 990px;
+}
+
+.article-content .content-right .article-abstract {
+  margin-bottom: 20px;
+  padding: 25px 45px 66px 45px;
+}
+
+.article-content .content-right .article-abstract .tag-date {
+  float: right;
+  margin-bottom: 16px;
+}
+
+.article-content .content-right .article-abstract .tag-date .tag {
+  background: whitesmoke;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  opacity: 1;
+  font-size: 14px;
+  padding: 2px 10px;
+  margin-right: 16px;
+}
+
+.article-content .content-right .article-abstract .tag-date .date {
+  font-size: 12px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.article-content .content-right .article-abstract .title-abstract-picture {
+  clear: both;
+}
+
+.article-content .content-right .article-abstract .title-abstract-picture .title-abstract .title {
+  width: 520px;
+  height: 37px;
+  line-height: 37px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 21px;
+}
+
+.article-content .content-right .article-abstract .title-abstract-picture .title-abstract .title a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.article-content .content-right .article-abstract .title-abstract-picture .title-abstract .abstract {
+  width: 564px;
+  height: 111px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.article-content .content-right .article-abstract .title-abstract-picture .title-abstract .abstract a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.article-content .content-right .article-abstract .title-abstract-picture .title-abstract .abstract:after {
+  content: '...';
+}
+
+.article-content .content-right .article-abstract .title-abstract-picture .picture {
+  float: right;
+  margin-top: 10px;
+}
+
+.clear {
+  clear: both;
+}
+

@@ -177,6 +177,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Chenhua\MarkdownEditor\MarkdownEditorServiceProvider::class,
+
     ],
 
     /*
@@ -226,6 +228,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'MarkdownEditor' => Chenhua\MarkdownEditor\Facades\MarkdownEditor::class,
     ],
 
 ];

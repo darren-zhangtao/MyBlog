@@ -1,0 +1,64 @@
+.article-detail {
+  width: 700px;
+  margin: 0px auto;
+  padding-top: 30px;
+  padding-bottom: 54px;
+
+  .title {
+    font-weight: bold;
+    font-size: 28px;
+    font-family:Microsoft YaHei;
+    line-height:37px;
+    color: #666666;
+  }
+
+  .information {
+    margin-top: 26px;
+
+    .user-name {
+      width: 36px;
+      height: 36px;
+      background: rgba(220,219,211,1);
+      border-radius: 21px;
+      line-height: 36px;
+      text-align: center;
+      color: #444444;
+      font-weight: bold;
+      font-family: Arial;
+    }
+
+    .date {
+      margin-left: 11px;
+      color: #999999;
+      font-size: 12px;
+      font-weight: 400;
+      height: 16px;
+      line-height: 16px;
+    }
+
+    .tag {
+      float: right;
+
+      .tag-name {
+        background: rgba(245,245,245,1);
+        border: 1px solid rgba(226,226,226,1);
+        opacity: 1;
+        border-radius: 6px;
+        padding: 0 8px;
+        height: 24px;
+        line-height: 24px;
+
+        font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(68,68,68,1);
+      }
+      .margin-left {
+        margin-left: 16px;
+      }
+    }
+  }
+  .content {
+    margin-top: 22px;
+  }
+}
