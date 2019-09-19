@@ -20,7 +20,7 @@ class CreateAbstractTable extends Migration
             $table->mediumText('abstract')->nullable();
             $table->string('img')->nullable();
             $table->boolean('is_delete')->default(0);
-            $table->timestamp('created_at')->useCurrent();
+//            $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
         });
     }

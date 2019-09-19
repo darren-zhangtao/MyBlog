@@ -20,7 +20,7 @@ class CreateArticlesTable extends Migration
             $table->string('title')->nullable();
             $table->mediumText('content')->nullable();
             $table->boolean('is_delete')->default(0);
-            $table->timestamp('created_at')->useCurrent();
+//            $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
         });
     }

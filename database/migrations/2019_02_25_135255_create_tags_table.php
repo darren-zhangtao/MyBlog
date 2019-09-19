@@ -19,7 +19,7 @@ class CreateTagsTable extends Migration
             $table->smallInteger('user_id')->references('id')->on('users');
             $table->smallInteger('content_id')->references('id')->on('articles');
             $table->boolean('is_delete')->default(0);
-            $table->timestamp('created_at')->useCurrent();
+//            $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
         });
     }

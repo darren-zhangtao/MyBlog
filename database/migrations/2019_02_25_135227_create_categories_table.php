@@ -19,7 +19,7 @@ class CreateCategoriesTable extends Migration
             $table->string('cat_name')->unique();
             $table->smallInteger('user_id')->references('id')->on('users');
             $table->boolean('is_delete')->default(0);
-            $table->timestamp('created_at')->useCurrent();
+//            $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
         });
     }

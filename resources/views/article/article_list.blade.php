@@ -16,16 +16,12 @@
     <div class="article-content">
         <div class="content-left inline-block">
             <div class="tag shadow">
-                <div class="user-name">0</div>
-                <div class="tag-name">插画</div>
-                <div class="tag-name">随笔</div>
-                <div class="tag-name">植物</div>
-
-                <div class="user-name">T</div>
-                <div class="tag-name">linux</div>
-                <div class="tag-name">设计模式</div>
-                <div class="tag-name">Nodejs</div>
-                <div class="tag-name">php</div>
+                @foreach ($category_list as $user_name => $categories)
+                    <div class="user-name">{{$user_name}}</div>
+                        @foreach ($categories as $category)
+                            <div class="tag-name">{{$category}}</div>
+                        @endforeach
+                @endforeach
             </div>
 
         </div>

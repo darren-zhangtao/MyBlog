@@ -28,7 +28,8 @@
             "App\\": "app/"
         },
         "files": [
-            "app/Dao/ArticleDao.php"
+            "app/Dao/ArticleDao.php",
+            "app/Dao/CategoriesDao.php"
         ]
     },
     "autoload-dev": {
